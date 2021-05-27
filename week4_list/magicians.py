@@ -13,3 +13,7 @@ for sq in range(0, 11, 2):
 print(squares)
 squares = [value**2 for value in range(0, 11)]
 print(squares)
+squares = []
+for square in range(0,11):
+    squares.append(square**2)
+print(squares)
